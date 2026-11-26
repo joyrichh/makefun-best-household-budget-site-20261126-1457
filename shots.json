@@ -1,0 +1,30 @@
+[
+  {
+    "file": "1-dashboard.jpg",
+    "route": "#/",
+    "width": 1280,
+    "height": 900,
+    "description": "Desktop dashboard: November cash flow, category spending, savings, recent transactions, and upcoming bills."
+  },
+  {
+    "file": "2-transactions.jpg",
+    "route": "#/transactions",
+    "width": 1280,
+    "height": 900,
+    "description": "Desktop ledger: income and expense summary, search, combined filters, editable transactions, and reset control."
+  },
+  {
+    "file": "3-goals.jpg",
+    "route": "#/goals",
+    "width": 1280,
+    "height": 900,
+    "description": "Desktop savings: original illustrations, the three family goals, progress, projections, and add-money forms."
+  },
+  {
+    "file": "4-phone.jpg",
+    "route": "#/",
+    "width": 390,
+    "height": 844,
+    "description": "Phone dashboard: wrapping navigation, November badge, readable single-column cash-flow cards."
+  }
+]
