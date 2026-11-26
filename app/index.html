@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#294e40">
+  <meta name="description" content="A calmer home for your household finances. Plan the month, keep track of the everyday, and save for the life you’re building together.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Rivera Family Budget — Household Budget</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Crect%20width%3D%2240%22%20height%3D%2240%22%20rx%3D%2212%22%20fill%3D%22%23294e40%22%2F%3E%3Cpath%20d%3D%22m10%2020%2010-9%2010%209M14%2017v13h12V17M20%2030v-8%22%20fill%3D%22none%22%20stroke%3D%22%23faf8f0%22%20stroke-width%3D%222%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app" data-skip>Skip to content</a>
+  <aside class="sidebar" aria-label="Household navigation">
+    <a class="brand" href="#/" aria-label="Rivera Budget dashboard"><span class="brand-mark"><svg viewBox="0 0 36 36" fill="none" aria-hidden="true"><path d="m6 18 12-11 12 11M11 14v16h14V14M17 30V20h3v10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M25 9c0-5 6-5 6-5s1 7-6 7" stroke="currentColor" stroke-width="1.4"/></svg></span><span>Rivera<span class="brand-budget">Budget<span class="brand-dot">.</span></span></span></a>
+    <p class="sidebar-caption">A LITTLE MORE PEACE OF MIND</p>
+    <nav id="navigation" aria-label="Main navigation"><a href="#/">Dashboard</a><a href="#/transactions">Transactions</a><a href="#/budgets">Budgets</a><a href="#/goals">Savings goals</a><a href="#/bills">Bills &amp; payments</a><a href="#/reports">Reports &amp; insights</a></nav>
+    <div class="sidebar-bottom"><div class="family-card"><div class="family-avatars" aria-hidden="true"><span>M</span><span>J</span><span>+2</span></div><strong>The Rivera Family</strong><span>2 adults · 2 kids · one team</span><div class="family-card-line"></div><p>A home for our everyday<br>and our someday.</p><svg class="family-heart" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21S2 15 2 8a5 5 0 0 1 10-1 5 5 0 0 1 10 1c0 7-10 13-10 13Z" stroke="currentColor" stroke-width="1.5"/></svg></div><p class="privacy-note"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m10 2 6 3v5c0 4-6 8-6 8s-6-4-6-8V5l6-3Z" stroke="currentColor" stroke-width="1.3"/><path d="m7 10 2 2 4-5" stroke="currentColor" stroke-width="1.3"/></svg>Private. Offline. Yours.</p></div>
+  </aside>
+  <div class="workspace"><header class="topbar"><div class="breadcrumb"><span>Our household</span><span class="breadcrumb-slash">/</span><strong id="route-label">Dashboard</strong></div><div class="topbar-right"><span class="storage-indicator" id="storage-indicator" role="status"><i></i>Saved on this device</span><span class="month-badge"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="4" width="14" height="13" rx="2" stroke="currentColor" stroke-width="1.3"/><path d="M6 2v4m8-4v4M3 9h14" stroke="currentColor" stroke-width="1.3"/></svg>November 2026</span><span class="household-avatar" aria-label="Rivera family">R</span></div></header>
+    <main id="app" tabindex="-1" aria-label="Household budget"></main>
+    <footer class="footer"><span>Made for the life you’re building, together.</span><span>Rivera Budget <i>·</i> All amounts in USD <i>·</i> No account. No connection.</span></footer>
+  </div>
+  <dialog id="action-dialog" aria-labelledby="dialog-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript">Turn on JavaScript to open your private household budget. No account or internet connection is needed.</p></noscript>
+</body>
+</html>
